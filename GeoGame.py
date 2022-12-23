@@ -82,7 +82,8 @@ def game_mode_one():
         # prints countries given they are not the same
         if number1 != number2:
             print(df.iloc[number1]["Entity"], " vs ", df.iloc[number2]["Entity"])
-            # checks for invalid input
+            #checks for invalid input - try and excepts among with loops, are used throughout the entire project to work against unintended input
+            #and instead of crushing the program, throw an error, explain what input is expected / correct, and rerun the program to repeat input
             try:
                 country = int(input("Choose 1, for the country on the left, or 2 for the country on the right: "))
                 print("-" * 64)

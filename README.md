@@ -28,3 +28,5 @@ Then, database "country_codes.csv" is used to facilitate accessing dataframes an
 The database "Leaderboard.csv" is used to keep track of scores and winners, including top 5 scores and able to update.
 
 Furthermore, games 4 and 5, are not based on data frame informations, but on the access to the internet, via wikipedia api, and the source text of the website, and flagpy, that downloads flags. 
+
+The program also includes tries, exceptions, and loops to work against unintended input and do not crash, but provide error and repeat input.

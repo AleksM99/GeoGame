@@ -13,6 +13,8 @@ Other than that, there are 4 third sourced data bases that are used to check the
 
 #How to run
 To run the game, you need to create a folder with all the necessary databases and the GeoGame python file, then run the file. 
+You will also need libraries installed: pandas, random, os, time, flagpy, matplotlib, wikipediaapi, textwrap
+
 
 #More information
 The program tries to provide entertaining and challenging geographical games, further explained in the program itself. Some are based on certain amounts of trials, other are available until failure. There is errors and invalid input checking, and other used libraries, like matplotlib, textwrap, random, time, wikipediaapi or flaggy. Game also uses inbuilt macOS command using os library, meaning os.system('clear'), for better and cleaner output. 
